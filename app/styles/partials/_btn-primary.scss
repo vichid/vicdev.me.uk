@@ -1,0 +1,8 @@
+.btn-primary{
+  background-color: $appleGreen;
+  border-color: $btnPrimaryBorder;
+  &:hover,&:focus,&:active{
+    background-color: $btnPrimaryHover;
+    border-color: $btnPrimaryHoverBorder;
+  }
+}

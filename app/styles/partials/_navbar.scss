@@ -1,0 +1,88 @@
+
+
+.navbar-default{
+  background-color:$headerGray;
+  @include opacity(0.9);
+  max-height: 59px;
+  border-color:$appleGreen;
+  a{
+    line-height: 1.5em;
+  }
+  .navbar-nav.nav-main {
+    max-height: 60px;
+    .active {
+      a{
+        background-color: transparent;
+        color:white;
+        &:hover{
+          background-color: transparent;
+          color:white;
+        }
+      }
+    }
+    > li {
+      max-height: inherit;
+      &:after{
+        font-family:"FontAwesome";
+        content:"\A\f0d8";
+        font-size:2em;
+        color:transparent;
+        position: absolute;
+        bottom: -15px;
+        left: 23px;
+        z-index: -1;
+      }
+      &.active:after{
+        color:$appleGreen;
+        z-index: 0;
+      }
+      > a{
+        color: white;
+        line-height: 2em;
+      }
+      &:hover{
+        &:after{
+          color:$appleGreen;
+          z-index: -1;
+        }
+        a{
+          background-color: transparent;
+          color: white;
+        }
+      }
+    }
+  }
+  .navbar-collapse{
+    position: relative;
+    bottom:10px;
+    background-color:$headerGray;
+  }
+}
+.divider{
+  display: none;
+}
+.nav-main{
+  margin-left: 15px;
+}
+@media (min-width: 768px){
+  .navbar-nav.navbar-right{
+    &:last-child{
+      margin-right: 15px;
+    }
+    li{
+      max-width: 47px;
+    }
+  }
+  .navbar-default .navbar-collapse{
+    position: inherit;
+    bottom:auto;
+    background-color:transparent;
+  }
+  .divider{
+    width: 1px;
+    height: 29px;
+    background-color: white;
+    margin-top: 14px;
+    margin-left: 8px;
+  }
+}

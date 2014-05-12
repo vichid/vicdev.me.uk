@@ -1,0 +1,8 @@
+@import "compass";
+
+//The modules directory is reserved for Sass code that doesn't cause Sass to actually output CSS. Things like mixin declarations, functions, and variables.
+@import "modules/*";
+//The partials directory is where I like to break things down into small categories (typography, buttons, textboxes, selectboxes, etc…).
+@import "partials/*";
+//The vendor directory is for third-party CSS.
+@import "vendor/*";

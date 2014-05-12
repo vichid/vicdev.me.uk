@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../bower_components/reveal.js/css/reveal.min.css">
+    <link rel="stylesheet" href="../styles/vendor/custom.css" id="theme">
+</head>
+
+<body class="body-reveal">
+
+<div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+
+        <section>
+            <h2>Welcome!</h2><br>
+
+            <p>Let's give you a quick tour</p>
+        </section>
+
+        <section>
+            <h3>My name is <strong>Victor Hidalgo</strong></h3><br>
+             <p>and I'm 23 years old</p>
+        </section>
+
+        <section>
+            <p>I'm from Barcelona but I'm living in London</p>
+            <img class="skyline" src="../images/skyline.png" alt="">
+        </section>
+
+        <section>
+            <p>I'm specialized in <b>mobile & web development</b> and I like to think that I can design aswell. Also I like audio, image & video processing.</p>
+        </section>
+
+        <section>
+            <p>At this moment I'm working in Bright Sites Consulting. We are specialized in drupal development.</p>
+        </section>
+
+        <section>
+            <p>If you have something to say just contact me to this adress:</p>
+            <h4><a href="mailto:victor.hidalgo.lorenzo@gmail.com">victor.hidalgo.lorenzo@gmail.com </a></h4>
+        </section>
+
+    </div>
+
+</div>
+
+<script src="../bower_components/reveal.js/lib/js/head.min.js"></script>
+<script src="../bower_components/reveal.js/js/reveal.min.js"></script>
+
+<script>
+
+    Reveal.initialize({
+        progress: true,
+        history: false,
+        center: true,
+        theme: 'custom', // available themes are in /css/theme
+        transition: 'default', // default/cube/page/concave/zoom/linear/fade/none
+        rollingLinks: false,
+        minScale: 0.5,
+        maxScale: 0.5,
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+            { src: '../bower_components/reveal.js/lib/js/classList.js', condition: function () {
+                return !document.body.classList;
+            } },
+            { src: '../bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function () {
+                hljs.initHighlightingOnLoad();
+            } }
+        ]
+    });
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+
+//Brand
+.navbar-default .navbar-brand{
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  background-color: $appleGreen;
+  color:white;
+  line-height: 2em;
+  padding: 15px 30px;
+  height: auto;
+  &:hover{
+    background-color: $appleGreen;
+    color:white;
+  }
+}
+

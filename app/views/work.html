@@ -1,0 +1,18 @@
+<div class="work">
+<!--   <ul class="category">
+    <span class="nullable">
+      <button type="button" class="btn btn-default" ng-model="category" data-animation="am-flip-x" data-html="1" ng-options="c.name for c in categories" bs-select>Action <span class="caret"></span></button>
+      <button type="button" class="btn btn-default" ng-model="year" data-animation="am-flip-x" data-html="1" ng-options="y.name for y in years" bs-select>Action <span class="caret"></span></button>
+    </span>
+  </ul> -->
+  <div append-source>
+    <div class="hex item{{$index + 1}}"
+      bs-aside
+      data-template="../views/tpl/aside.tpl.html"
+      data-title="{{project.name}}"
+      data-html="true"
+      data-content='<p>{{project.description}}</p><br><p>{{project.categories}}</p><img class="project-img" src="{{project.img}}" alt="{{project.name}}"><br><div class="aside-footer"><i class="fa fa-users fa-2x pull-left"></i><span class="pull-left">{{project.people}}</span><span class="project-year">{{project.year}}</span><i class="fa fa-{{project.platform}} fa-2x platform"></i> <a class="pull-right" target="_blank" href="{{project.url}}">{{project.name}} <i class="fa fa-external-link"></i></a></div>'
+      data-container="body"
+      ng-repeat="project in projects"></div>
+  </div>
+</div>

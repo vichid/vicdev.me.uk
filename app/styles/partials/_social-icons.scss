@@ -1,0 +1,35 @@
+
+$faSize: 1.5em;
+.navbar-right{
+  a{
+    color: white !important;
+    line-height: 32px !important;
+    height: 58px !important;
+    max-height: 58px !important;
+    .fa{
+      font-size: $faSize;
+      @include transition-property(font-size);
+      @include transition-duration(.2s);
+    }
+    &:hover{
+      .fa{
+        font-size: $faSize + 0.2em;
+      }
+      .fa-android{
+        color: $android;
+      }
+      .fa-stack-overflow{
+        color: $stack;
+      }
+      .fa-linkedin-square{
+        color: $linkedin;
+      }
+      .fa-globe{
+        font-size: $faSize;
+      }
+      .fa-signal{
+        color: $stack;
+      }
+    }
+  }
+}

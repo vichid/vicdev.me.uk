@@ -1,0 +1,11 @@
+.slides{
+  width: 100%;
+  border:none;
+  height: 200px;
+}
+
+@media screen and (min-width: 768px){
+  .slides{
+    height: 300px;
+  }
+}

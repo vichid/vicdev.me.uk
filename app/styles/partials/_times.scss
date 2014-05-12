@@ -1,0 +1,8 @@
+.fa-times-circle-o{
+  &:hover{
+    @include transition-property(all);
+    @include transition-duration(.5s);
+    @include transition-timing-function(ease);
+    @include transform( rotate(360deg) );
+  }
+}

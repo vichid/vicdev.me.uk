@@ -1,0 +1,35 @@
+.aside .aside-dialog .aside-header{
+  background: $appleGreen;
+}
+.project-img{
+  max-height: 300px;
+  padding: 10px 0;
+}
+.aside-body{
+  text-align: center;
+  p{
+    text-align: left;
+  }
+}
+.platform{
+  position: absolute;
+  right: 47%;
+}
+.project-year{
+  position: absolute;
+  right: 53%;
+}
+.aside-footer{
+  a,span,p{
+    line-height: 26px;
+    font-size: 16px;
+  }
+}
+.fa-users{
+  padding-right: 5px;
+}
+@media screen and (min-width: 970px){
+  .aside{
+    width: 50%;
+  }
+}
