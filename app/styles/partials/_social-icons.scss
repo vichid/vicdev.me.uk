@@ -33,3 +33,12 @@ $faSize: 1.5em;
     }
   }
 }
+@media screen and (max-width: 768px){
+  .navbar-right{
+    li{
+      float: left;
+      width: 20%;
+      padding: 0 13px;
+    }
+  }
+}

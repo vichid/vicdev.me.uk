@@ -55,7 +55,7 @@
 
 .reveal .roll span:after {
   color: #fff;
-  background: #0d99a5; }
+  background: #0d99a5; }-index
 
 /*********************************************
  * IMAGES
@@ -84,7 +84,6 @@
   height: 300px;
   right: 0;
   bottom: 0;
-  z-index: 0;
 }
 /*
   Arrow style from http://codepen.io/billycrist/pen/oBLFD
@@ -163,7 +162,4 @@
   box-shadow: none;
   border:none;
   width: 100%;
-}
-.reveal .state-background{
-  z-index: -1;
 }

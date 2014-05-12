@@ -21,6 +21,7 @@
       }
     }
     > li {
+      text-align:center;
       max-height: inherit;
       &:after{
         font-family:"FontAwesome";
@@ -30,7 +31,6 @@
         position: absolute;
         bottom: -15px;
         left: 23px;
-        z-index: -1;
       }
       &.active:after{
         color:$appleGreen;
@@ -61,10 +61,7 @@
 .divider{
   display: none;
 }
-.nav-main{
-  margin-left: 15px;
-}
-@media (min-width: 768px){
+@media screen and (min-width: 768px){
   .navbar-nav.navbar-right{
     &:last-child{
       margin-right: 15px;
@@ -84,5 +81,11 @@
     background-color: white;
     margin-top: 14px;
     margin-left: 8px;
+  }
+  .nav-main{
+    margin-left: 15px;
+    li{
+      text-align:left;
+    }
   }
 }
