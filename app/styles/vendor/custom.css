@@ -91,7 +91,7 @@
 .reveal .controls div.navigate-left,
 .reveal .controls div.navigate-left.enabled {
   position: absolute;
-  padding: 3rem; /* Arrow size */
+  padding: 2rem; /* Arrow size */
   box-shadow: 1px -1px 0 1px #02b99c inset;
   -webkit-box-shadow: 2px -2px #02b99c inset;
   border: solid transparent;
@@ -100,13 +100,13 @@
   transform:rotate(45deg);
   -ms-transform:rotate(45deg); /* IE 9 */
   -webkit-transform:rotate(45deg); /* Opera, Chrome, and Safari */
-  top: 120px;
+  top: 140px;
 }
 
 .reveal .controls div.navigate-right,
 .reveal .controls div.navigate-right.enabled {
   position: absolute;
-  padding: 3rem; /* Arrow size */
+  padding: 2rem; /* Arrow size */
   box-shadow: 1px -1px 0 1px #02b99c inset;
   -webkit-box-shadow: 2px -2px #02b99c inset;
   border: solid transparent;
@@ -115,16 +115,18 @@
   transform:rotate(225deg);
   -ms-transform:rotate(225deg); /* IE 9 */
   -webkit-transform:rotate(225deg); /* Opera, Chrome, and Safari */
-  top: 120px;
-  left: 68%;
+  top: 140px;
+  left: 84%;
   right: auto;
 }
 @media (min-width: 708px){
   .reveal .controls div.navigate-right,.reveal .controls div.navigate-right.enabled {
+    padding: 3rem;
     top: 77px;
     left: 82%;
   }
   .reveal .controls div.navigate-left,.reveal .controls div.navigate-left.enabled {
+    padding: 3rem;
     top: 77px;
   }
 }
