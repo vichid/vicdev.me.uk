@@ -16,7 +16,45 @@
   </div>
 
   <hr class="featurette-divider">
+  <div class="row">
+      <h1 class="text-center">Say something</h1>
+      <div class="col-md-10">
+          <form class="form-horizontal" name="contactForm" action="/" method="post" novalidate>
 
+            <!-- Name input-->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="name">Name</label>
+              <div class="col-md-9">
+                <input id="name" name="name" type="text" ng-model="contact.name" placeholder="Your name" class="form-control" required>
+              </div>
+            </div>
+
+            <!-- Email input-->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="email">E-mail</label>
+              <div class="col-md-9">
+                <input id="email" name="email" type="email" ng-model="contact.email" placeholder="Your email" class="form-control" required>
+              </div>
+            </div>
+
+            <!-- Message body -->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="message">Message</label>
+              <div class="col-md-9">
+                <textarea class="form-control" id="message" name="message" ng-model="contact.message" ng-minlength="10" ng-maxlength="200" placeholder="What's Up!" rows="5" required></textarea>
+              </div>
+            </div>
+
+            <!-- Form actions -->
+            <div class="form-group">
+              <div class="col-md-12 text-right">
+                <button type="submit" class="btn btn-primary btn-lg" ng-disabled="contactForm.$invalid">Submit</button>
+              </div>
+            </div>
+          </form>
+      </div>
+  </div>
+  <hr class="featurette-divider">
   <div class="row made-with-row">
     <h1>Made With</h1>
     <a href="http://yeoman.io/" target="_blank" bs-popover data-trigger="hover" data-animation="am-flip-x" data-placement="top" data-title="Yo" data-content="scaffolds out a new application, writing your Grunt configuration and pulling in relevant Grunt tasks and Bower dependencies that you might need for your build."><img src="images/made-with/yo.gif" alt="yo"></a>

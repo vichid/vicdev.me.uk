@@ -3,8 +3,8 @@
 .navbar-default{
   background-color:$headerGray;
   @include opacity(0.9);
-  max-height: 59px;
-  border-color:$appleGreen;
+  max-height: 66px;
+  border-bottom: 5px solid $appleGreen;
   a{
     line-height: 1.5em;
   }
@@ -29,8 +29,17 @@
         font-size:2em;
         color:transparent;
         position: absolute;
-        bottom: -15px;
-        left: 23px;
+        bottom: -20px;
+      }
+      &:first-child{
+        &:after{
+          left: 23px;
+        }
+      }
+      &:nth-child(2){
+        &:after{
+          left: 21px;
+        }
       }
       > a{
         color: white;

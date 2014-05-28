@@ -1,4 +1,4 @@
-.btn-primary{
+.btn-primary,.btn-primary[disabled]{
   background-color: $appleGreen;
   border-color: $btnPrimaryBorder;
   &:hover,&:focus,&:active{
