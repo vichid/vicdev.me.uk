@@ -124,11 +124,12 @@
   .reveal .controls div.navigate-right,.reveal .controls div.navigate-right.enabled {
     padding: 3rem;
     top: 77px;
-    left: 82%;
+    left: 85%;
   }
   .reveal .controls div.navigate-left,.reveal .controls div.navigate-left.enabled {
     padding: 3rem;
     top: 77px;
+    left: 0;
   }
 }
 .reveal .controls div.navigate-left.enabled:hover {
