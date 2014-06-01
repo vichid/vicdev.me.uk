@@ -101,6 +101,7 @@
   -ms-transform:rotate(45deg); /* IE 9 */
   -webkit-transform:rotate(45deg); /* Opera, Chrome, and Safari */
   top: 140px;
+  left: -25px;
 }
 
 .reveal .controls div.navigate-right,
@@ -116,7 +117,7 @@
   -ms-transform:rotate(225deg); /* IE 9 */
   -webkit-transform:rotate(225deg); /* Opera, Chrome, and Safari */
   top: 140px;
-  left: 84%;
+  left: 77%;
   right: auto;
 }
 @media (min-width: 708px){

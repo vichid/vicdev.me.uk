@@ -7,6 +7,7 @@ app.configure(function() {
     app.use(express.logger('dev'));             // log every request to the console
     app.use(express.json());
     app.use(express.urlencoded());
+    app.use(express.favicon());
   });
 
 app.get('*', function(req, res) {
