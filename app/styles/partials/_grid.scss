@@ -36,43 +36,49 @@
         @include transform(skewX(-30deg) rotate(-90deg));
     }
 }
-.item1 .hex-item-inner-2:before{
+.sound_tools .hex-item-inner-2:before{
     @include background(image-url("work/sound-tools.png"),#ccc);
     background-repeat: no-repeat;
     background-position: 56%;
     background-size: 75%;
 }
-.item2 .hex-item-inner-2::before{
+.media_terrassa .hex-item-inner-2::before{
     @include background(image-url("work/media-terrassa.png"));
     background-repeat:no-repeat;
     background-position: 50%;
     background-size: 150%;
 }
-.item3 .hex-item-inner-2::before{
+.netcuv .hex-item-inner-2::before{
     @include background(image-url("work/netcuv.png"));
     background-repeat:no-repeat;
     background-position: 50%;
     background-size: 150%;
 }
-.item4 .hex-item-inner-2::before{
+.legionella2013 .hex-item-inner-2::before{
     @include background(image-url("work/legionella.jpg"));
     background-repeat:no-repeat;
     background-position: 50%;
     background-size: 150%;
 }
-.item5 .hex-item-inner-2::before{
+.selene .hex-item-inner-2::before{
+    @include background(image-url("work/selene.png"));
+    background-repeat:no-repeat;
+    background-position: 50% 112%;
+    background-size: 150%;
+}
+.myhomefiles .hex-item-inner-2::before{
     @include background(image-url("work/mhf.jpg"));
     background-repeat:no-repeat;
     background-position: 43%;
     background-size: 150%;
 }
-.item6 .hex-item-inner-2::before{
+.business_conections .hex-item-inner-2::before{
     @include background(image-url("work/bc.jpg"));
     background-repeat:no-repeat;
     background-position: 50%;
     background-size: 150%;
 }
-.item7 .hex-item-inner-2::before{
+.personal_webpage .hex-item-inner-2::before{
     @include background(image-url("work/portfolio.jpg"));
     background-repeat:no-repeat;
     background-position: 50%;
