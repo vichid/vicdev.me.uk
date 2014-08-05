@@ -48,6 +48,18 @@
     background-position: 50%;
     background-size: 150%;
 }
+.going_out .hex-item-inner-2::before{
+    @include background(image-url("work/go.png"));
+    background-repeat:no-repeat;
+    background-position: 50% -50%;
+    background-size: 150%;
+}
+.homes___property .hex-item-inner-2::before{
+    @include background(image-url("work/hp.png"));
+    background-repeat:no-repeat;
+    background-position: 50% -50%;
+    background-size: 150%;
+}
 .netcuv .hex-item-inner-2::before{
     @include background(image-url("work/netcuv.png"));
     background-repeat:no-repeat;

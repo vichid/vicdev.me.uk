@@ -16,8 +16,38 @@ angular.module('portfolioApp')
         {name:'2014', value:2014}
     ]
     $scope.year = $scope.years[0]
+
+    $scope.places = [
+        {name:'Choose a Company', value:''}
+        {name:'Campus UPC', value:'campus'}
+        {name:'Bright Sites Consulting', value:'bsc'}
+        {name:'Personal Projects', value:'pp'}
+    ]
+    $scope.place = $scope.places[0]
     $scope.category = $scope.categories[0]
     $scope.projects = [
+        {
+            name:'Going Out',
+            categories:'<ul class="tags"><li class="tag">drupal</li><li class="tag">responsive-design</li></ul>',
+            description:'Going Out, an Evening Standard project, is aimed to let Evening Standard readers know about the actuality of events, attractions, pubs, etc. We were on charge of implementing the whole site.',
+            people:'2',
+            project_year:2014,
+            img:'images/work/go.png',
+            url:'http://www.standard.co.uk/goingout/',
+            platform:'laptop',
+            place:'bsc'
+        }
+        {
+            name:'Homes & Property',
+            categories:'<ul class="tags"><li class="tag">drupal</li><li class="tag">responsive-design</li></ul>',
+            description:'Homes & Property is website that allows users to search for their new home. I was in charge of the maintenance and evolutionary.',
+            people:'3',
+            project_year:2014,
+            img:'images/work/hp.png',
+            url:'http://www.homesandproperty.co.uk/',
+            platform:'laptop',
+            place:'bsc'
+        }
         {
             name:'Selene',
             categories:'<ul class="tags"><li class="tag">ghost</li></ul>',
@@ -26,17 +56,19 @@ angular.module('portfolioApp')
             project_year:2014,
             img:'images/work/selene.png',
             url:'hhttp://selene.vicdev.me.uk/',
-            platform:'laptop'
+            platform:'laptop',
+            place:'pp'
         }
         {
             name:'MyHomeFiles',
             categories:'<ul class="tags"><li class="tag">drupal</li><li class="tag">responsive-design</li></ul>',
-            description:'MyHomeFiles is a new site, designed by Classic Folios. The purpose of the site is to provide information for new homeowners, putting all information about a home in one place. The site is available for use by home development companies, who wish to communicate with the owners of their houses on a development-by-development basis.',
+            description:'MyHomeFiles is a new site, designed by Classic Folios. The purpose of the site is to provide information for new homeowners, putting all information about a home in one place. The site is available for use by home development companies, who wish to communicate with the owners of their houses on a development-by-development basis. I was the main developer in charge of implement the new versions of the site.',
             people:'3',
             project_year:2014,
             img:'images/work/mhf.jpg',
             url:'http://www.myhomefiles.co.uk/',
-            platform:'laptop'
+            platform:'laptop',
+            place:'bsc'
         }
         {
             name:'Personal Webpage',
@@ -46,17 +78,19 @@ angular.module('portfolioApp')
             project_year:2014,
             img:'images/work/portfolio.jpg',
             url:'http://vicdev.me.uk/',
-            platform:'laptop'
+            platform:'laptop',
+            place:'pp'
         }
         {
             name:'Business Conections',
             categories:'<ul class="tags"><li class="tag">drupal</li><li class="tag">responsive-design</li></ul>',
-            description:'Business Connections is a part of the Evening Standard brand, it is aimed at business professionals and contains details of exclusive events, articles and members-only content.',
+            description:'Business Connections, an Evening Standard project, is aimed at business professionals and contains details of exclusive events, articles and members-only content. BC allows booking of upcoming events by a certain price per annum. My task as a secondary developer in this project was: helping with the maintenance of the site and continue with the evolutionary.',
             people:'3',
             project_year:2014,
             img:'images/work/bc.jpg',
             url:'http://www.standard.co.uk/businessconnections',
-            platform:'laptop'
+            platform:'laptop',
+            place:'bsc'
         }
         {
             name:'Sound Tools',
@@ -66,7 +100,8 @@ angular.module('portfolioApp')
             project_year:2013,
             img:'images/work/sound-tools.png',
             url:'https://play.google.com/store/apps/details?id=com.soundtools',
-            platform:'mobile'
+            platform:'mobile',
+            place:'pp'
         }
         {
             name:'Media Terrassa',
@@ -76,7 +111,8 @@ angular.module('portfolioApp')
             project_year:2012,
             img:'images/work/media-terrassa.png',
             url:'https://media.terrassa.upc.edu/',
-            platform:'laptop'
+            platform:'laptop',
+            place:'campus'
         }
         {
             name:'Netcuv',
@@ -86,7 +122,8 @@ angular.module('portfolioApp')
             project_year:2012,
             img:'images/work/netcuv.png',
             url:'https://netcuv.upc.edu/ca/frontpage',
-            platform:'laptop'
+            platform:'laptop',
+            place:'campus'
         }
         {
             name:'Legionella2013',
@@ -96,7 +133,8 @@ angular.module('portfolioApp')
             project_year:2012,
             img:'images/work/legionella.jpg',
             url:'http://legionella2013.upc.edu/',
-            platform:'laptop'
+            platform:'laptop',
+            place:'campus'
         }
 
     ]

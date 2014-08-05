@@ -1,4 +1,4 @@
 #humans.txt
 
 Developer: Me of course
-Designer:
+Designer: Me

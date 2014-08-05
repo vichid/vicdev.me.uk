@@ -1,7 +1,7 @@
 <div class="work">
   <ul class="category">
     <span class="nullable">
-      <div></div>
+      <button type="button" class="btn btn-default" ng-model="place" data-animation="am-flip-x" data-html="1" ng-options="p.name for p in places" bs-select>Action <span class="caret"></span></button>
       <button type="button" class="btn btn-default" ng-model="year" data-animation="am-flip-x" data-html="1" ng-options="y.name for y in years" bs-select>Action <span class="caret"></span></button>
     </span>
   </ul>
@@ -13,6 +13,6 @@
       data-html="true"
       data-content='<p>{{project.description}}</p><br><p>{{project.categories}}</p><img class="project-img" src="{{project.img}}" alt="{{project.name}}"><br><div class="aside-footer"><i class="fa fa-users fa-2x pull-left"></i><span class="pull-left">{{project.people}}</span><span class="project-year">{{project.project_year}}</span><i class="fa fa-{{project.platform}} fa-2x platform"></i> <a class="pull-right" target="_blank" href="{{project.url}}">{{project.name}} <i class="fa fa-external-link"></i></a></div>'
       data-container="body"
-      ng-repeat="project in projects | filter:{ project_year: year.value }"></div>
+      ng-repeat="project in projects | filter:{ project_year: year.value, place: place.value}"></div>
   </div>
 </div>
