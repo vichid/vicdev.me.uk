@@ -8,8 +8,10 @@
     <title>Victor hidalgo - Portfolio</title>
     <meta name="description" content="This is the personal portfolio of Victor hidalgo, a Web/Mobile developer">
     <meta name="viewport" content="width=device-width">
-    <meta property="og:image" content="images/me.jpeg"/>
+    <meta property="og:image" content="images/me.jpg"/>
     <base href="/">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
@@ -22,8 +24,8 @@
     <!-- build:css({.tmp,app}) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='//fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
   </head>
   <body ng-app="portfolioApp">
     <!--[if lt IE 7]>
@@ -47,11 +49,11 @@
             <li><a href="http://blog.vicdev.me.uk/">Blog</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right social">
-            <li><a href="http://codepen.io/vichid/" target="_blank"><i class="fa fa-codepen"></i></a></li>
-            <li><a href="https://play.google.com/store/apps/developer?id=VicDev" target="_blank"><i class="fa fa-android"></i></a></li>
-            <li><a href="https://github.com/vichid" target="_blank"><i class="fa fa-github"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/vhlorenzo" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
-            <li><a href="http://careers.stackoverflow.com/vichid" target="_blank"><i class="fa fa-signal"></i></a></li>
+            <li><a href="//codepen.io/vichid/" target="_blank"><i class="fa fa-codepen"></i></a></li>
+            <li><a href="//play.google.com/store/apps/developer?id=VicDev" target="_blank"><i class="fa fa-android"></i></a></li>
+            <li><a href="//github.com/vichid" target="_blank"><i class="fa fa-github"></i></a></li>
+            <li><a href="//www.linkedin.com/in/vhlorenzo" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+            <li><a href="//careers.stackoverflow.com/vichid" target="_blank"><i class="fa fa-signal"></i></a></li>
           </ul>
         </div>
       </div>
@@ -61,8 +63,13 @@
     </div>
     <div class="github-fork-ribbon-wrapper right-bottom hidden-xs">
         <div class="github-fork-ribbon">
-            <a href="https://github.com/vichid/vicdev.me.uk/fork" target="_blank">Fork me on GitHub</a>
+            <a href="//github.com/vichid/vicdev.me.uk/fork" target="_blank">Fork me on GitHub</a>
         </div>
+    </div>
+    <div class="easter">
+      <a href="//music.vicdev.me.uk">
+        <img src="images/easter-egg.png" alt="easter egg">
+      </a>
     </div>
     <div id="footer">
       <div class="container">
@@ -94,11 +101,12 @@
     <script src="bower_components/angular-cookies/angular-cookies.js"></script>
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-strap/dist/angular-strap.min.js"></script>
     <script src="bower_components/angular-animate/angular-animate.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
-    <script src="bower_components/angular-strap/dist/angular-strap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.0.0/angular-strap.min.js"></script>
     <script src="bower_components/angular-strap/dist/angular-strap.tpl.min.js"></script>
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
