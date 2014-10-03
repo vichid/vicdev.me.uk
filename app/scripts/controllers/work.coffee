@@ -19,13 +19,35 @@ angular.module('portfolioApp')
 
     $scope.places = [
         {name:'Choose a Company', value:''}
-        {name:'Campus UPC', value:'campus'}
-        {name:'Bright Sites Consulting', value:'bsc'}
         {name:'Personal Projects', value:'pp'}
+        {name:'Bright Sites Consulting', value:'bsc'}
+        {name:'Campus UPC', value:'campus'}
     ]
     $scope.place = $scope.places[0]
     $scope.category = $scope.categories[0]
     $scope.projects = [
+        {
+            name:'My Urban Garden',
+            categories:'<ul class="tags"><li class="tag">android</li></ul>',
+            description:'My Urban Garden is an android APP focused on inform people about plants:How and When to plant; Benefits consuming them;When to recollect them;Pests and diseases they can suffer. This APP is only in Spanish due to the huge amount of work that is to maintain it. It\'s still in development.',
+            people:'1',
+            project_year:2014,
+            img:'images/work/my-urban-garden.png',
+            url:'https://play.google.com/store/apps/details?id=uk.me.vicdev.urbangarden',
+            platform:'mobile',
+            place:'pp'
+        }
+        {
+            name:'What\'s hot',
+            categories:'<ul class="tags"><li class="tag">android</li><li class="tag">hybrid</li><li class="tag">ionic</li><li class="tag">angularjs</li></ul>',
+            description:'What\'s hot is an hybrid APP that shows the trending topics by the region you select. It\'s still in development.',
+            people:'1',
+            project_year:2014,
+            img:'images/work/wgot.png',
+            url:'https://play.google.com/store/apps/details?id=uk.me.vicdev.wgot',
+            platform:'mobile',
+            place:'pp'
+        }
         {
             name:'Going Out',
             categories:'<ul class="tags"><li class="tag">drupal</li><li class="tag">responsive-design</li></ul>',

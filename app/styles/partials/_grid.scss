@@ -96,6 +96,18 @@
     background-position: 50%;
     background-size: 150%;
 }
+.what_s_hot .hex-item-inner-2::before{
+    @include background(image-url("work/wgot.png"),#ccc);
+    background-repeat:no-repeat;
+    background-position: 61%;
+    background-size: 75%;
+}
+.my_urban_garden .hex-item-inner-2::before{
+    @include background(image-url("work/my-urban-garden.png"),#ccc);
+    background-repeat:no-repeat;
+    background-position: 61%;
+    background-size: 75%;
+}
 
 $leftMargin : 85px;
 $topMargin : -42px;
