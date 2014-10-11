@@ -33,7 +33,7 @@ angular.module('portfolioApp')
             people:'1',
             project_year:2014,
             img:'images/work/my-urban-garden.png',
-            url:'https://play.google.com/store/apps/details?id=uk.me.vicdev.urbangarden',
+            url:'https://play.google.com/store/apps/details?id=uk.me.vicdev.myurbangarden',
             platform:'mobile',
             place:'pp'
         }
