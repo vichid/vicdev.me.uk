@@ -36,6 +36,12 @@
         @include transform(skewX(-30deg) rotate(-90deg));
     }
 }
+.dreamlines_android_app .hex-item-inner-2:before{
+    @include background(image-url("work/dreamlines-logo.webp"),#ccc);
+    background-repeat: no-repeat;
+    background-position: 65%;
+    background-size: 80%;
+}
 .sound_tools .hex-item-inner-2:before{
     @include background(image-url("work/sound-tools.png"),#ccc);
     background-repeat: no-repeat;

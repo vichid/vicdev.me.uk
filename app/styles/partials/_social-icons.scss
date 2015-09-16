@@ -15,6 +15,9 @@ $faSize: 1.5em;
       .fa{
         font-size: $faSize + 0.2em;
       }
+      .fa-twitter{
+        color: $twitter;
+      }
       .fa-android{
         color: $android;
       }
