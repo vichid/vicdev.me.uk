@@ -37,10 +37,10 @@
     }
 }
 .dreamlines_android_app .hex-item-inner-2:before{
-    @include background(image-url("work/dreamlines-logo.webp"),#ccc);
+    @include background(image-url("work/dreamlines_logo.png"),#ccc);
     background-repeat: no-repeat;
-    background-position: 65%;
-    background-size: 80%;
+    background-position: 60%;
+    background-size: 70%;
 }
 .sound_tools .hex-item-inner-2:before{
     @include background(image-url("work/sound-tools.png"),#ccc);
