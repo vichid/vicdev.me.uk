@@ -33,10 +33,10 @@ angular.module('portfolioApp')
         {
             name:'Dreamlines Android App',
             categories:'<ul class="tags"><li class="tag">android</li><li class="tag">java</li></ul>',
-            description:'The dreamlines app facilitates the search among the cruises that the company offer.',
+            description:'It\'s an app that allows users to search and book cruises. I took ownership of the product and with the help of our designers I created this international white label app with material design. We shipped this app targeting different country markets due to the different brands Dreamlines is using.',
             people:'1',
             project_year:2015,
-            img:'images/work/dreamlines-logo.webp',
+            img:'images/work/dreamlines_logo.png',
             url:'https://play.google.com/store/apps/details?id=de.dreamlines.app.de',
             platform:'mobile',
             place:'de'
